@@ -1,0 +1,6 @@
+# RSpade VS Code extension: byte-fidelity is REQUIRED.
+#
+# A checkout must materialize EXACTLY the bytes published here. Line-ending
+# normalization would rewrite content on checkout, and the vendored .vsix archives
+# in this tree are binaries that must never pass through a text filter.
+* -text
